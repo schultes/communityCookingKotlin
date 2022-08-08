@@ -1,0 +1,118 @@
+<resources>
+
+    <style name="TransparentIconButton" parent="Widget.AppCompat.ImageButton">
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+    <style name="RippleEffect">
+        <item name="android:foreground">?attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+    <style name="TextButton" parent="@style/Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:minWidth">0dp</item>
+    </style>
+
+    <style name="DangerButton" parent="@style/Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">?attr/colorError</item>
+    </style>
+
+    <style name="LightButton" parent="@style/Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">?attr/colorPrimaryVariant</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textAppearance">@style/h3</item>
+        <item name="cornerRadius">50dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+
+    </style>
+
+    <style name="RightBoundButton" parent="@style/Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">?attr/colorAccent</item>
+        <item name="shapeAppearance">@style/RoundedShapeLeft</item>
+        <item name="iconSize">16dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:textAppearance">@style/body1</item>
+    </style>
+
+    <style name="LeftBoundButton" parent="@style/Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">?attr/colorSecondary</item>
+        <item name="shapeAppearance">@style/RoundedShapeRight</item>
+        <item name="android:clickable">false</item>
+        <item name="iconGravity">end</item>
+        <item name="iconSize">16dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:textAppearance">@style/body1</item>
+        <item name="android:textColor">?attr/colorOnSecondary</item>
+        <item name="iconTint">?attr/colorOnSecondary</item>
+    </style>
+
+    <style name="RoundHighlightedText" parent="Widget.MaterialComponents.TextView">
+        <item name="android:background">@drawable/rounded_sided</item>
+        <item name="backgroundTint">?attr/colorPrimaryVariant</item>
+        <item name="android:paddingHorizontal">24dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="RoundedShapeLeft" parent="@style/ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeBottomLeft">50%</item>
+        <item name="cornerSizeTopLeft">50%</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeTopRight">0dp</item>
+    </style>
+
+    <style name="RoundedShapeRight" parent="@style/ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeBottomRight">50%</item>
+        <item name="cornerSizeTopRight">50%</item>
+    </style>
+
+    <style name="Chip" parent="@style/Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/selectable_background_tint</item>
+        <item name="android:textColor">@color/selectable_text_color</item>
+    </style>
+
+    <style name="Default_ProgressBar" parent="Widget.AppCompat.ProgressBar">
+        <item name="android:indeterminateTint">?attr/colorPrimary</item>
+    </style>
+
+
+    <style name="FloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="android:backgroundTint">?attr/colorAccent</item>
+        <item name="android:elevation">8dp</item>
+        <item name="borderWidth">0dp</item>
+        <item name="tint">@color/white</item>
+    </style>
+
+    <style name="TextInput" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox" />
+
+    <style name="OutlinedButton" parent="@style/Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/mtrl_outlined_stroke_color</item>
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Subtitle1
+        </item>
+        <item name="minWidth">0dp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="OutlinedSpinner" parent="Widget.AppCompat.Spinner.DropDown">
+        <item name="android:foreground">@drawable/rounded_box</item>
+    </style>
+
+    <style name="ImageHolder" parent="CardView">
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="cardElevation">4dp</item>
+        <item name="contentPadding">4dp</item>
+    </style>
+
+    <style name="ImageHolderClickable" parent="ImageHolder">
+        <item name="android:foreground">?attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+</resources>

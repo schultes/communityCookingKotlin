@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Community Cooking</string>
+    <string name="message">Tippe einfach drauf los …</string>
+    <string name="change_recipe">Rezept Ändern</string>
+    <string name="chose_recipe">Rezept Auswählen</string>
+    <string name="prepTime">Zubereitungszeit:</string>
+    <string name="portions">Portionsgröße:</string>
+    <string name="people">Personen</string>
+    <string name="ignore">ignorieren</string>
+    <string name="fix">beheben</string>
+    <string name="error_location_access_denied">Der zugriff auf den Standort wurde verweigert. Die Funktionalität der Events ist auf den Standortzugriff angewiesen.</string>
+    <string name="error_edit_event_incomplete_information">Gehe sicher, dass alle Felder vollständig augefüllt sind, bevor Du speicherst!</string>
+    <string name="event_exit_confirmation">Bist Du sicher, dass Du das Event verlassen möchtest?</string>
+    <string name="event_delete_confirmation">Bist Du sicher, dass Du das Event löschen möchtest?</string>
+    <string name="general_information">Allgemeine Information</string>
+    <string name="recipe_description">Rezeptbeschreibung</string>
+    <string name="pending_requests">Ausstehende Anfragen</string>
+    <string name="participants">Teilnehmer</string>
+    <string name="location">Location</string>
+    <string name="event_is_publicly_visible">Event ist öffentlich sichtbar</string>
+    <string name="loading">loading</string>
+    <string name="recipe_name">Rezeptname</string>
+    <string name="username">Nutzername</string>
+    <string name="description">Beschreibung</string>
+    <string name="title">Titel</string>
+    <string name="vegetarian">VEGETARISCH</string>
+    <string name="vegan">VEGAN</string>
+    <string name="none">KEINE</string>
+    <string name="latitude">Breitengrad</string>
+    <string name="longitude">Längengrad</string>
+    <string name="delete_event">Event löschen</string>
+    <string name="fresh">Neu</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="confirm">Bestätigen</string>
+    <string name="select_event_time">Wähle die Sartzeit deines Events</string>
+    <string name="select_event_date">Wähle das Datum deines Events</string>
+    <string name="suche_nach">Suche nach …</string>
+
+    <string-array name="ingredientUnitDropDown">
+        <item>ml</item>
+        <item>g</item>
+        <item>x</item>
+        <item>el</item>
+        <item>Prise</item>
+        <item>tl</item>
+    </string-array>
+
+    <string-array name="recipeTypes">
+        <item>KEINE</item>
+        <item>VEGETARISCH</item>
+        <item>VEGAN</item>
+    </string-array>
+</resources>
